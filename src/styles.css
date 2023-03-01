@@ -1,0 +1,56 @@
+.card {
+  color: #70757a;
+}
+h1 {
+  color: blue;
+}
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+#temperature {
+  font-size: 48px;
+  color: black;
+}
+.weather-icon,
+.units {
+  vertical-align: top;
+}
+.units a {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+.units .active {
+  color: black;
+  cursor: default;
+}
+.units .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  color: black;
+}
+.weather-forecast .row {
+  margin: 0;
+  padding: 0;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.4;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.4;
+  display: inline;
+}
+.search-form {
+  margin-top: 20px;
+}
